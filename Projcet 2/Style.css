@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+html{
+  background: url(bg.png);
+}
+.banner{
+  background: linear-gradient(to right, #93c572 70%, #c8ebb1 30%);
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.banner .banner1{
+  position: absolute;
+  top: 0%;
+  right: 28%;
+  
+}
+.banner1 img{
+ background: transparent;
+}
+#nav-btn ul li a{
+  text-decoration: none;
+  font-family: 'calibri';
+  font-size: 20px;
+  color:#494234;
+  position: relative;
+  text-transform: uppercase;
+  background:t;
+  
+
+}
+
+#nav-btn ul li a::after{
+  content: "";
+  width: 0%;
+  height:10%;
+  top: 35px;
+  left: 0%;
+  background: #494234;
+  position: absolute;
+  border-radius: 4px;
+  transition: 0.5s; 
+}
+#nav-btn ul li a:hover::after{
+  width: 60%;
+  transform:translateX(50%);
+  
+}
+.log{
+  margin-left: 75rem;
+}
+.btn{
+  background: #494234;
+  background-size: 7rem;
+}
+.text1{
+  margin:0rem 0rem;
+  padding: 0px;
+  margin-top: 15rem;
+  
+}
+.text1 h1{
+  font-family: 'Cookie', cursive;
+  font-size:5rem;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+button{
+  background: #494234;
+  padding: 5px 44px 5px;
+  border-radius: 250px 0px  250px 0px;
+}
+h1{
+  font-size: 3.6rem;
+  font-weight: bold;
+  font-family: ;
+  color: #494234;
+
+}
+.img-1{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 7rem;
+}
+
+.side{
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  margin-top: 3rem;
+  
+}
+.side img{
+ margin-left: .60rem;
+}
+.side #row{
+  width: 7rem;
+  height: 7rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  
+}
+.texting{
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.stick{
+  position: relative;
+  padding: 20px;
+  /* font-family: 'calibri';
+  text-transform: uppercase; */
+}
+.stick::after{
+  content: "";
+  width: 40%;
+  height: 5px;
+  background-color: #000;
+  top: 200px;
+  left: -7%;
+  position: absolute;
+  transform: translateX(-50px, 50px);
+}
+.dow-bar{
+  margin-top: 9rem;
+  margin-left: 8rem;
+}
+.dow-bar span{
+  width: 15rem;
+  height: 3rem;
+  margin: .50rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+  
+}
+.dow-bar span i{
+  font-size: 2rem;
+  margin-left: .60rem;
+  margin-top: .50rem;
+}
